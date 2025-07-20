@@ -9,7 +9,7 @@ export function ProfileStats() {
     { label: t("followers"), value: "15463" },
     { label: t("following"), value: "15" },
     { label: t("posts"), value: "114" },
-    { label: t("hourlyRate"), value: "149$" },
+    { label: t("hourlyRate"), value: "99$" },
   ]
 
   return (

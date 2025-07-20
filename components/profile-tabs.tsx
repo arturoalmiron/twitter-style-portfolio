@@ -38,12 +38,14 @@ export function ProfileTabs() {
             {tab.label}
           </button>
         ))}
+        {/* Comment out this entire Link block for production
         <Link href="/admin">
           <Button variant="outline" size="sm" className="ml-auto bg-transparent">
             <Plus className="w-4 h-4 mr-1" />
             {t("manage")}
           </Button>
         </Link>
+        */}
       </div>
 
       {/* Tab Content */}
