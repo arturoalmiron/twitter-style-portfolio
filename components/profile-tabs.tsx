@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ExperienceTab } from "@/components/tabs/experience-tab"
 import { SkillsTab } from "@/components/tabs/skills-tab"
-import { ReviewsTab } from "@/components/tabs/reviews-tab"
+// import { ReviewsTab } from "@/components/tabs/reviews-tab" // Comment this out
 import { Plus } from "lucide-react"
 import Link from "next/link"
 import { useLanguage } from "@/hooks/use-language"

@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ExperienceManager } from "@/components/admin/experience-manager"
 import { SkillsManager } from "@/components/admin/skills-manager"
-import { ReviewsManager } from "@/components/admin/reviews-manager"
+// import { ReviewsManager } from "@/components/admin/reviews-manager" // Comment this out
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { ProjectsManager } from "@/components/admin/projects-manager"
@@ -30,8 +30,7 @@ export default function AdminPage() {
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="projects">Projects</TabsTrigger>
-            <TabsTrigger value="reviews">Reviews</TabsTrigger>
-          </TabsList>
+            {/* <TabsTrigger value="reviews">Reviews</TabsTrigger> */} {/* Comment this out */}          </TabsList>
 
           <TabsContent value="experience">
             <Card>
@@ -66,6 +65,7 @@ export default function AdminPage() {
             </Card>
           </TabsContent>
 
+          {/* Comment out this entire TabsContent block
           <TabsContent value="reviews">
             <Card>
               <CardHeader>
@@ -76,6 +76,7 @@ export default function AdminPage() {
               </CardContent>
             </Card>
           </TabsContent>
+          */}
         </Tabs>
       </div>
     </div>
